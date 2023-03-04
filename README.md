@@ -10,7 +10,15 @@ pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 
 ## Usage
 
-Please set two tokens and your telegram bot name in config.env in config dir
+Please set telegram bot TOKEN, OpenAI API key and your telegram bot name in config.env in config dir before run the command as follows:
+
+```bash
+./bot.py
+```
+
+Your bot on the server needs to be outside of GFW or enable proxy to access telegram bot API and OpenAI API
+
+WATCHOUT: disable the privacy mode of your telegram bot https://stackoverflow.com/questions/45889405/how-to-read-messages-from-telegram-group-with-bot https://stackoverflow.com/questions/38565952/how-to-receive-messages-in-group-chats-using-telegram-bot-api  and give a admin of group before join the group
 
 
 ## Helpful reference
