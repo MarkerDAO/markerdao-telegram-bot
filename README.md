@@ -18,6 +18,8 @@ pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 chmod +x ./bot.py && ./bot.py
 ```
 
+OR
+
 ```bash
 make run
 ```
