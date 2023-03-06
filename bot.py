@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-# Import the required modules
 import config
 
 import telegram
@@ -43,6 +42,5 @@ def run_bot():
     print("Bot started.")
     application.run_polling()
 
-# define a main function
 if __name__ == "__main__":
     run_bot()
