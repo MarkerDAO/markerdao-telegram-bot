@@ -29,4 +29,4 @@ and rejoin the group again.
 - https://github.com/karfly/chatgpt_telegram_bot/blob/0779808db35e99541002b7d3aadf82d890797738/bot/bot.py#L86-L143
 - https://stackoverflow.com/questions/45889405/how-to-read-messages-from-telegram-group-with-bot
 - https://stackoverflow.com/questions/38565952/how-to-receive-messages-in-group-chats-using-telegram-bot-api
-- Powered by [OpenAI](https://openai.com/) and New Bing
+- Powered by [OpenAI](https://openai.com/)
