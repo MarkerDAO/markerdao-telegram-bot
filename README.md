@@ -15,7 +15,11 @@ pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 - Please set telegram bot TOKEN, OpenAI API key and your telegram bot name in config.env in config dir before run the command as follows:
 
 ```bash
-./bot.py
+chmod +x ./bot.py && ./bot.py
+```
+
+```bash
+make run
 ```
 
 - Your bot on the server needs to be outside of GFW or enable proxy to access telegram bot API and OpenAI API
