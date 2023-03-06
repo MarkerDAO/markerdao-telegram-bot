@@ -29,6 +29,8 @@ make run
 **WATCHOUT:** disable the privacy mode of your telegram bot and give a admin of group before join the group, if it does not work well, you need to remove the bot from your group
 and rejoin the group again.
 
+- You can set daily question limit per user in bot.env 
+
 
 ## Helpful reference
 
