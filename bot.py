@@ -43,6 +43,8 @@ async def message_handle(update: Update, context: CallbackContext, message=None)
     print("from_user: ", from_user)
 
     if (message.chat.type == "group" or message.chat.type == "supergroup") and config.telegram_bot_name in message_text:
+        if message.chat.username != "MarkerDAO":
+            return
         if not check_question_times(from_user):
             await update.message.reply_text("You have reached the daily question limit per user.")
             return
